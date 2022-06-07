@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(./imagen/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+@font-face {
+    font-family: glacial;
+    src: url(./fuente/GRegular.otf) format("opentype"); }
+
+@font-face {
+        font-family: glacialbold;
+        src: url(./fuente/GBold.otf) format("opentype"); }
+
+
+.p {
+    font-size: 50px;
+    font-family: glacialbold;
+    color: rgb(5, 62, 57);
+  
+    min-width: 100%;
+}
